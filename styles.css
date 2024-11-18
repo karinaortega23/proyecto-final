@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #7d1aff;
+    font-family: "Roboto Mono",sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-inline-start: 370px;
+    margin-inline-end: 100px;
+
+}
+
+img {
+    width: 120px;
+    display: inline-block;
+    align-items: right;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+h5{
+    color: #7d1aff;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    margin-inline-end: 0px;
+    margin-right: 20px;
+    font-family: "Roboto Mono",sans-serif;
+}
+
+.barra-de-inicio {
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    background-color: black;
+    width: 1450px;
+    text-align: center;
+    padding-block-end: 10px;
+    margin-block-end: 10px;
+}
+
+h2 {
+    color: white;
+    font-family: "Roboto Mono",sans-serif;
+    margin-block-start: 10px;
+    padding: 0px;
+    margin-inline-start: 30px;
+    font-size: 20px;
+}
+
+.contenedor-columnas{
+    margin: 0px;
+    padding:50px;
+    padding-block-start: 30px;
+  }
+
+  .columnas{
+    column-count: 4; /* número de columnas */
+    column-gap: 100px; /* ancho de columnas */
+    /*column-rule: 5px outset #ffffff; /* separación de columnas */
+  }
+
+h3 {  
+    color: #7d1aff;
+    font-family: "Faculty Glyphic",sans-serif;
+    font-size: 180px;
+    width: 200px;
+    height: 200px;
+    margin-block-start: 0px;
+    margin-block-end: 40px;
+    margin-inline-start: -20px;
+    margin-inline-end: 10px;
+    text-align: center;
+    text-shadow: 0 0 30pxx #7d1aff;
+}
+
+h4 {
+    color: #7d1aff;
+    font-family: "Roboto Mono",sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    margin-block-end: 10px;
+}
+
+p {
+    color: white;
+    font-family: "Roboto Mono",sans-serif;
+    margin-block-end: 20px;
+}
+
+ul {
+        color: white;
+        font-family: "Roboto Mono",sans-serif;
+}
